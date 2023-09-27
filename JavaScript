@@ -1,0 +1,679 @@
+Documentación adjunta de las clases de la cursada
+
+Clase 0: Introducción
+
+¿Qué es una página web?
+
+Es un documento el cual puede ser accedido a través de un navegador web. Está compuesto por diversos elementos, como texto, imágenes, enlaces, videos, FORMULARIOS, entre otros, que se combinan para proporcionar información y funcionalidad a los usuarios.
+
+Las páginas web están escritas en lenguajes de marcado, como HTML, que define la estructura y contenido básicos y CSS, que se encarga de establecer el aspecto visual y la presentación de la página.
+
+Cuando un usuario ingresa la dirección de una página web en un navegador web, el navegador envía una solicitud al servidor donde se aloja la página. El servidor procesa la solicitud y envía la págiba web al navegador, que la intrepreta y la muestra al usuario.
+
+Las páginas web pueden ser estáticas o dinámicas. Las páginas estáticas son aquellas cuyo contenido no cambia, a menos que se realice una actualización manual del código fuente. Por otro lado, las páginas dinámicas se generan en tiempo real, a partir de una base de datos u otras fuentes de información, lo que permite mostrar contenido actualizado y personalizado para cada usuario.
+
+Páginas web dinámicas y estáticas: definición, características y ejemplos:
+
+Estáticas
+
+EJ:  
+
+Una página web estática es aquella que no permite la interración con el usuario para modificar el contenido del documento. Esn este tipo de páginas la información mostrada siempre es la misma y su actualización depende de una modificación del código.
+
+Características de sitios web estáticos:
+
+- Son escasamente interactivos: Estas páginas no ofrecen un margen de libertad a los usuarios para actualizar o modificar sus contenidos. Estrictamente el contenido de una página web es fijo y no cambia.
+
+- Su funcionamiento depende de una programación definida: Las páginas precisan de la intregración de un código en HTML que contenga la información a presentar y uno en CSS que le dé formato al sitio.
+
+- Requieren intervención humana: Debido a que tienen contenidos que no cambian de forma automática, la actualización de la información debe llevarla a cabo de manera manual el programador o diseñador.
+
+
+Dinámicas:
+
+Una página web dinámica es un sitio en línea que permite la interacción con el usuario para crear experiencias personalizadas y únicas. Los contenidos de una página web dinámica varían con cada carga para ofrecer actualizaciones en tiempo real y ajustarse a las necesidades del visitante.
+
+Características de las páginas web dinámicas:
+
+- Son altamente interactivas: Estos sitios ofrecen a los visitantes la posibilidad de interactuar con los contenidos del sitio. Esto se puede llevar a cabo a través de formularios, herramientas interactivas o recursos multimedia disponibles para la navegación. El contenido de una web dinámica dependerá en gran medida de las acciones que lleve a cabo el usuario en ella. EJ: carrito de compra, envío de formulario, etc.
+
+- Su funcionamiento depende de comandos: Teniendo en cuenta que los contenidos que se despliegan en este tipos de páginas web están sujetos a la interacción con el visitante, es necesario que la plataforma esté programada para darle un buen margen de libertad. Los programadores deben optimizar el sitio con JavaScript para que se generen los cambios esperados en el sitio dependiendo de las acciones del usuario.
+
+- Permiten la automatización: Debido a que estos sitios requieren una constante actualización, es importante incluir recursos que permitan llevar a cabo muchas tareas de forma automática. Esto es posible con una programación que involucre tu base de datos con el código que permite el funcionamiento de la página. Esto es importante cuando hablamos de sitios de comercio electrónico, en donde será necesario que los datos que se presentan en una página correspondan a los de la disponibilidad de un producto o de los costos actualizados de tu mercancía. Al automatizar procesos requerirás una mínica interacción humana que podrás reservar a la actualización de los contenidos fijos que se despliegan en el sitio.
+
+----------------------------------
+
+¿Qué es una aplicación web?
+
+Una aplicación web es una aplicación interactiva que se accede a través de un navegador web. A diferencia de las aplicaciones de escritorio que se instalan en un dispositivo local, las aplicaciones web se ejecutan en un servidor remoto y se entregan al usuario a través de Internet. Esto significa que los usuarios pueden acceder a la aplicación web desde cualquier dispositivo con un navegador y conexión a Internet, sin necesidad de instalar software adicional.
+
+Las aplicaciones web pueden ser muy diversas en términos de funcionalidad y complejidad. Pueden ofrecer características similares a las aplicaciones de escritorio, como la manipulación de bases de datos, la gestión de archivos, el procesamiento de pagos y la interacción en tiempo real. Algunos ejemplos comunes de aplicaciones web son las redes sociales, los servicios de correo electrónico, los sistemas de gestión de contenido y los sistemas de comercio electrónico.
+
+-----------------------------------
+
+¿Qué es un lenguaje de programación? 
+
+Un lenguaje de programación es un lenguaje formal (o artificial, es decir, un lenguaje con reglas gramaticales bien definidas) que proporciona a una persona, en este caso al programador, la capacidad y habilidad de escribir (o programar) una serie de instrucciones o secuencias de órdenes en forma de algoritmos con el fin de controlar el comportamiento físico o lógico de un sistema informático, para que de esa manera se puedan obtener diversas clases de datos o ejecutar determinadas tareas. A todo este conjunto de órdenes escritas mediante un lenguaje de programación se le denomina programa informático.
+
+¿Qué es un intérprete o interpretador?
+
+En ciencias de la computación, intérprete o interpretador es un programa informático capaz de analizar y ejecutar otros programas. Los intérpretes se diferencian de los compiladores o de los ensambladores en que mientras estos traducen un programa desde su descripción en un lenguaje de programación al código de máquina del sistema, los intérpretes solo realizan la traducción a medida que sea necesaria, típicamente, instrucción por instrucción, y normalmente no guardan el resultado de dicha traducción.
+
+Los programas interpretados suelen ser más lentos que los compilados debido a la necesidad de traducir el programa mientras se ejecuta, pero a cambio son más flexibles como entornos de programación y depuración (lo que se traduce, por ejemplo, en una mayor facilidad para reemplazar partes enteras del programa o añadir módulos completamente nuevos), y permiten ofrecer al programa interpretado un entorno no dependiente de la máquina donde se ejecuta el intérprete, sino del propio intérprete (lo que se conoce comúnmente como máquina virtual).
+
+Para mejorar el desempeño, algunas implementaciones de algunos lenguajes de programación pueden interpretar o compilar el código fuente original en una forma intermedia más compacta, y después traducir eso al código de máquina (ej. Perl, Python, MATLAB, y Ruby). Algunos aceptan los archivos fuente guardados en esta representación intermedia (ej. Python, UCSD Pascal y Java).
+
+En la actualidad, uno de los entornos más comunes de uso de los intérpretes es en los navegadores web, debido a la posibilidad que estos tienen de ejecutarse independientemente de la plataforma.
+
+Entonces, ¿Qué es JavaScript?
+
+JavaScript (abreviado comúnmente JS) es un lenguaje de programación interpretado, dialecto del estándar ECMAScript. Se define como orientado a objetos, basado en prototipos, imperativo, débilmente tipado y dinámico.
+
+Se utiliza principalmente del lado del cliente, implementado como parte de un navegador web permitiendo mejoras en la interfaz de usuario y páginas web dinámicas y JavaScript del lado del servidor (Server-side JavaScript o SSJS). Su uso en aplicaciones externas a la web, por ejemplo en documentos PDF, aplicaciones de escritorio (mayoritariamente widgets) es también significativo.
+
+Desde 2012, todos los navegadores modernos soportan completamente ECMAScript 5.1, una versión de JavaScript. Los navegadores más antiguos soportan por lo menos ECMAScript 3. La sexta edición se liberó en julio de 2015.4
+
+JavaScript se diseñó con una sintaxis similar a C++ y Java, aunque adopta nombres y convenciones del lenguaje de programación Java. Sin embargo, Java y JavaScript tienen semánticas y propósitos diferentes. Su relación es puramente comercial, tras la compra del creador de Java (Sun Microsystems) de Netscape Navigator (creador de LiveScript) y el cambio de nombre del lenguaje de programación.
+
+Todos los navegadores modernos interpretan el código JavaScript integrado en las páginas web. Para interactuar con una página web se provee al lenguaje JavaScript de una implementación del Document Object Model (DOM). Javascript es el único lenguaje de programación que entienden de forma nativa los navegadores.
+
+Tradicionalmente se venía utilizando en páginas web HTML para realizar operaciones y únicamente en el marco de la aplicación cliente, sin acceso a funciones del servidor. Actualmente es ampliamente utilizado para enviar y recibir información del servidor junto con ayuda de otras tecnologías como AJAX. JavaScript se interpreta en el agente de usuario al mismo tiempo que las sentencias van descargándose junto con el código HTML.
+
+Desde el lanzamiento en junio de 1997 del estándar ECMAScript 1, han existido las versiones 2, 3 y 5, que es la más usada actualmente (la 4 se abandonó). En junio de 2015 se cerró y publicó la versión ECMAScript 6.
+
+---------------------------------------------
+
+CLASE 1: INTRODUCCIÓN A JAVASCRIPT
+
+En el contexto de la programación, los datos son información que usamos en nuestros programas informáticos. Por ejemplo, tu nombre de usuario en Twitter es un dato.
+
+Gran parte de la programación se trata de manipular o mostrar datos. Para hacer esto, los programadores necesitamos alguna manera de guardar y registrar datos.
+
+¿Para qué queremos guardarlos? Porque necesitamos reutilizarlos. Precisamos de una manera de referirnos a este dato en particular para que podamos hacer uso nuevamente de ello, a lo largo de nuestro programa.
+
+Entonces las variables no son más que un espacio de memoria reservado para alojar un tipo de dato. Es un contenedor que no solo preserva un dato, sino que también le otorga un nombre, para poder señalarlo y luego utilizarlo.
+
+-----------------
+
+¿Qué son las variables? 
+
+Una variable es un recurso de memoria reservado para alojar una información. Son muy útiles e imprescindibles para la programación. Si un lenguaje no tiene variables muy probablemente no es un lenguaje de programación sino uno de marcado como el html o «descriptivo» como el CSS.
+
+Las variables tienen un continente que puede o no almacenar un contenido. El continente es imprescindible. El contenido es optativo.
+
+EJEMPLO:
+
+let edad;
+
+Esto sería la declaración de un recurso de memoria (variable) llamado edad. El punto y coma recordar que es optativo y que indica fin de instrucción. Esta variable de momento tiene el valor undefined (no existe). Javascript reserva el espacio pero todavía no sabe que información contiene.
+
+Una vez declarada una variable ya no puede volverse a declarar con el mismo nombre. (a excepción de que sea una variable local dentro de una función) El navegador ya habrá reservado recursos para ese nombre de variable determinado y si lo volviéramos a declarar daría un error.
+
+Ej:
+
+let edad;
+
+let edad;
+
+ERROR, NO SE PUEDE, SE INTERRUMPE LA EJECUCIÓN. Esto sucede porque comparten el mismo espacio, es decir, no pueden declararse dos variables con el mismo nombre, pero si REASIGNARSE.
+
+A continuación podemos usar el signo (=) para hacer una asignación de valor a la variable. O también podemos optar por no hacer esta asignación y entonces la variable continua almacenando el valor «undefined«.
+
+let edad;
+
+edad = 30;
+
+edad = 50;
+
+edad = 1000;
+
+Esto es correcto :D
+
+Reasignar significa atribuirle un nuevo valor a la variable. Esto significa que puedo modificar los datos que contiene sin limitaciones, pero esto depende de qué manera declaremos la variable. En este caso, si no queremos que el valor sea alterado, deberemos utilizar la palabra reservada const y asignar el valor, ya que esta no puede guardar un valor undefined.
+
+Ej:
+
+const nombre = "Carola";
+
+ERRORES:
+
+const apellido = "Lala";
+
+apellido = "Lele";
+
+ERROR, ESTO ES REASIGNAR, CAMBIAR SU VALOR, CONST ES CONSTANTE !!!!
+
+Habiendo aclarado esto, podemos concluir que JavaScript nos ofrece dos formas de declarar variables, una con let, que puede reasignar su valor todas las veces que sean necesarias y otra con const, que va a guardar y preservar ese valor, sin mutarlo. 
+
+LET Y CONST
+Para profundizar…
+
+Let previene la sobreescritura accidental de variables.
+
+Const prohíbe la reasignación de valores a variables.
+
+
+------------------------------------------------
+
+SINTAXIS BÁSICA DE JavaScript
+
+La sintaxis de JavaScript es muy similar a la de otros lenguajes de programación como Java y C. Las normas básicas que definen la sintaxis de JavaScript son las siguientes:
+
+- No se tienen en cuenta los espacios en blanco y las nuevas líneas: como sucede con XHTML, el intérprete de JavaScript ignora cualquier espacio en blanco sobrante, por lo que el código se puede ordenar de forma adecuada para entenderlo mejor (tabulando las líneas, añadiendo espacios, creando nuevas líneas, etc.)
+
+- Se distinguen las mayúsculas y minúsculas: al igual que sucede con la sintaxis de las etiquetas y elementos XHTML. Sin embargo, si en una página XHTML se utilizan indistintamente mayúsculas y minúsculas, la página se visualiza correctamente, siendo el único problema la no validación de la página. En cambio, si en JavaScript se intercambian mayúsculas y minúsculas el script no funciona.
+
+- No se define el tipo de las variables: al crear una variable, no es necesario indicar el tipo de dato que almacenará. De esta forma, una misma variable puede almacenar diferentes tipos de datos durante la ejecución del script.
+
+- No es necesario terminar cada sentencia con el carácter de punto y coma (;): en la mayoría de lenguajes de programación, es obligatorio terminar cada sentencia con el carácter ;. Aunque JavaScript no obliga a hacerlo, es conveniente seguir la tradición de terminar cada sentencia con el carácter del punto y coma (;).
+
+- Se pueden incluir comentarios: los comentarios se utilizan para añadir información en el código fuente del programa. Aunque el contenido de los comentarios no se visualiza por pantalla, si que se envía al navegador del usuario junto con el resto del script, por lo que es necesario extremar las precauciones sobre la información incluida en los comentarios.
+
+------------------------------------------
+
+TIPOS DE DATOS
+
+Un valor en JavaScript siempre pertenece a un tipo de dato determinado. Por ejemplo, un string o un número.
+
+Podemos almacenar un valor de cualquier tipo dentro de una variable. Por ejemplo, una variable puede contener en un momento un string y luego almacenar un número:
+
+// no hay error
+let message = "hola";
+message = 123456;
+
+Los lenguajes de programación que permiten estas cosas, como JavaScript, se denominan “dinámicamente tipados”, lo que significa que allí hay tipos de datos, pero las variables no están vinculadas rígidamente a ninguno de ellos.
+
+NUMBER
+
+El tipo number representa tanto números enteros como de punto flotante.
+
+let n = 123;
+n = 12.345;
+
+Hay muchas operaciones para números. Por ejemplo, multiplicación *, división /, suma +, resta -, y demás.
+
+Además de los números comunes, existen los llamados “valores numéricos especiales” que también pertenecen a este tipo de datos: Infinity, -Infinity y NaN.
+
+Infinity representa el Infinito matemático ∞. Es un valor especial que es mayor que cualquier número.
+
+Hacer matemáticas es “seguro” en JavaScript. Podemos hacer cualquier cosa: dividir por cero, tratar las cadenas no numéricas como números, etc.
+
+El script nunca se detendrá con un error fatal (“morir”). En el peor de los casos, obtendremos NaN como resultado.
+
+
+console.log("20" + 10) '2010'
+console.log(typeof (20 + "03213")) 'string'
+console.log("29" * 20) 580
+console.log(2000 / "3") 666.6666666666666
+console.log(200 * "asd") NaN
+console.log("30" - "30") 0
+
+STRING
+
+Un string en JavaScript es una cadena de caracteres y debe colocarse entre comillas. Los caracteres representan letras del abecedario, signos de puntuación y otros símbolos.
+
+let str = "Hola";
+let str2 = 'Las comillas simples también están bien';
+let phrase = `se puede incrustar otro ${str}`;
+
+En JavaScript, hay 3 tipos de comillas.
+
+Comillas dobles: "Hola".
+Comillas simples: 'Hola'.
+Backticks (comillas invertidas): `Hola`.
+Las comillas dobles y simples son comillas “sencillas” (es decir, funcionan igual). No hay diferencia entre ellas en JavaScript.
+
+Los backticks son comillas de “funcionalidad extendida”. Nos permiten incrustar variables y expresiones en una cadena de caracteres encerrándolas en ${...}, por ejemplo:
+
+let name = "John";
+
+// incrustar una variable
+alert( `Hola, ${name}!` ); // Hola, John!
+
+// incrustar una expresión
+alert( `el resultado es ${1 + 2}` ); //el resultado es 3
+
+La expresión dentro de ${...} se evalúa y el resultado pasa a formar parte de la cadena. Podemos poner cualquier cosa ahí dentro: una variable como name, una expresión aritmética como 1 + 2, o algo más complejo.
+
+Toma en cuenta que esto sólo se puede hacer con los backticks. ¡Las otras comillas no tienen esta capacidad de incrustación!
+
+----------------------------------------------------
+
+
+ALERT, PROMPT Y CONFIRM
+
+Como usaremos el navegador como nuestro entorno de demostración, veamos un par de funciones para interactuar con el usuario: alert, prompt, y confirm.
+
+alert
+Ya la hemos visto. Muestra un mensaje y espera a que el usuario presione “Aceptar”.
+
+Por ejemplo:
+
+alert("Hello");
+
+La mini ventana con el mensaje se llama * ventana modal *. La palabra “modal” significa que el visitante no puede interactuar con el resto de la página, presionar otros botones, etc., hasta que se haya ocupado de la ventana. En este caso, hasta que presionen “OK”.
+
+La función prompt acepta dos argumentos:
+
+result = prompt(title, [default]);
+Muestra una ventana modal con un mensaje de texto, un campo de entrada para el visitante y los botones OK/CANCELAR.
+
+title
+El texto a mostrar al usuario.
+
+default
+Un segundo parámetro opcional, es el valor inicial del campo de entrada.
+
+El usuario puede escribir algo en el campo de entrada de solicitud y presionar OK, así obtenemos ese texto en result. O puede cancelar la entrada, con el botón “Cancelar” o presionando la tecla Esc, de este modo se obtiene null en result.
+
+La llamada a prompt retorna el texto del campo de entrada o null si la entrada fue cancelada.
+
+Por ejemplo:
+
+let age = prompt ('¿Cuántos años tienes?', 100);
+
+alert(`Tienes ${age} años!`); //Tienes 100 años!
+
+confirm
+La sintaxis:
+
+result = confirm(pregunta);
+La función confirm muestra una ventana modal con una pregunta y dos botones: OK y CANCELAR.
+
+El resultado es true si se pulsa OK y false en caso contrario.
+
+Por ejemplo:
+
+let isBoss = confirm("¿Eres el jefe?");
+
+alert( isBoss ); // true si se pulsa OK
+
+______________________________________________________________________________
+
+INFO ADICIONAL ANTES DEL TEMA DE LA CLASE
+
+VALORES VACÍOS 
+
+Existen dos valores especiales, escritos como null y undefined, que son usados para denotar la ausencia de un valor significativo. Son en si mismos valores, pero no traen consigo información.
+
+Muchas operaciones en el lenguaje que no producen un valor significativo, producen undefined simplemente porque tienen que producir algún valor.
+
+NULL 
+
+El valor especial null no pertenece a ninguno de los tipos de datos existentes.
+
+Forma un tipo propio separado que contiene sólo el valor null:
+
+let gustoDeHelado = null;
+
+En JavaScript, null no es una “referencia a un objeto inexistente” o un “puntero nulo” como en otros lenguajes.
+
+Es sólo un valor especial que representa “nada”, “vacío” o “valor desconocido”.
+
+El código anterior indica que el valor de gustoDeHelado es desconocido o está vacío por alguna razón.
+
+UNDEFINED
+
+El valor especial undefined también se distingue. Hace un tipo propio, igual que null.
+
+El significado de undefined es “valor no asignado”.
+
+Si una variable es declarada, pero no asignada, entonces su valor es undefined:
+
+let edad;
+
+alert(edad); // muestra "undefined"
+
+Técnicamente, es posible asignar undefined a cualquier variable:
+
+let esEstudiante = undefined;
+
+…Pero no recomendamos hacer eso. Normalmente, usamos null para asignar un valor “vacío” o “desconocido” a una variable, mientras undefined es un valor inicial reservado para cosas que no han sido asignadas.
+
+ADEMÁS null es un valor que es permitido en la transmisión de datos, en cambio undefined no lo es.
+
+DÓNDE SE PUEDEN ALMACENAR LAS VARIABLES EN JAVASCRIPT? CUÁL ES SU ALCANCE?
+
+En JavaScript, las variables se almacenan en diferentes lugares según su tipo y ámbito. Aquí hay una descripción general de dónde se almacenan las variables en JavaScript:
+
+1. **Variables Globales:** Las variables declaradas fuera de cualquier función se consideran globales y se almacenan en el objeto global (en el navegador, esto sería el objeto `window`). Estas variables son accesibles desde cualquier parte del código y permanecen en memoria durante toda la vida de la página web o la aplicación a menos que se eliminen explícitamente o se cierre la página.
+
+   ```javascript
+   var variableGlobal = 10;
+   console.log(window.variableGlobal); // Acceso a la variable global
+   ```
+
+2. **Variables Locales:** Las variables declaradas dentro de una función se almacenan en el ámbito de esa función y solo son accesibles desde dentro de esa función. Estas variables se crean cuando se llama a la función y se destruyen cuando la función finaliza su ejecución.
+
+   ```javascript
+   function ejemplo() {
+     var variableLocal = 5;
+     console.log(variableLocal); // Acceso a la variable local
+   }
+   ejemplo();
+   console.log(variableLocal); // Esto generará un error, variableLocal no está definida aquí
+   ```
+
+3. **Variables de Bloque:** A partir de ECMAScript 6 (ES6), se introdujeron las variables `let` y `const`, que también pueden ser locales pero tienen un alcance de bloque. Esto significa que se limitan al bloque en el que se declaran, como un bucle `for` o un bloque `if`, y no están disponibles fuera de ese bloque.
+
+   ```javascript
+   if (true) {
+     let variableDeBloque = 3;
+     console.log(variableDeBloque); // Acceso a la variable de bloque
+   }
+   console.log(variableDeBloque); // Esto generará un error, variableDeBloque no está definida aquí
+   ```
+
+4. **Variables de Objeto y Arreglo:** Las variables que almacenan objetos o arreglos realmente almacenan referencias a esos objetos o arreglos en memoria. Esto significa que cuando asignas una variable a un objeto o arreglo, la variable contiene una referencia al objeto o arreglo en lugar de los datos reales. Si pasas esa variable a una función o la asignas a otra variable, ambas referirán al mismo objeto o arreglo en memoria.
+
+   ```javascript
+   var arreglo1 = [1, 2, 3];
+   var arreglo2 = arreglo1; // Ambas variables apuntan al mismo arreglo en memoria
+   arreglo2.push(4);
+   console.log(arreglo1); // [1, 2, 3, 4], ya que ambos apuntan al mismo arreglo
+   ```
+
+En resumen, la ubicación en la que se almacenan las variables en JavaScript depende de su ámbito y tipo. Las variables globales se almacenan en el objeto global, las locales se almacenan en el ámbito de la función en la que se declaran, las de bloque se limitan al bloque en el que se declaran y las variables que almacenan objetos o arreglos contienen referencias a esos objetos o arreglos en memoria.
+
+¿LAS VARIABLES SE ALMACENAN EN EL SISTEMA OPERATIVO?
+
+Las variables de JavaScript, en particular las variables declaradas en un navegador web, no se almacenan en el sistema operativo en sí. En cambio, se gestionan dentro del entorno de ejecución del navegador. Cada navegador tiene su propio motor JavaScript, como V8 en Chrome, SpiderMonkey en Firefox, JavaScriptCore en Safari y Chakra en versiones anteriores de Microsoft Edge.
+
+Estos motores JavaScript administran la asignación de memoria para las variables y objetos JavaScript, y lo hacen dentro del proceso del navegador, que se ejecuta en el sistema operativo. La memoria asignada para variables y objetos se maneja internamente por el motor JavaScript y está sujeta a la administración de memoria proporcionada por el navegador y el sistema operativo.
+
+En resumen, las variables de JavaScript y su gestión de memoria son responsabilidad del motor JavaScript dentro del proceso del navegador, y no se almacenan directamente en el sistema operativo. El sistema operativo proporciona el espacio de memoria y recursos necesarios para que el navegador y su motor JavaScript funcionen correctamente, pero no interviene directamente en la gestión de variables JavaScript.
+-------------------------------
+
+CLASE 2: CONTROL DE FLUJO
+
+Es frecuentemente útil tener un valor que distingue entre solo dos posibilidades, como "si" y "no", "encendido" y "apagado". Para este propósito, JavaScript tiene el tipo BOOLEAN, que tiene solo dos valores: true (verdadero) y false (falso) que se escriben de la misma forma.
+
+Ejemplos:
+
+const encendido = true;
+const apagado = false;
+
+Los valores booleanos también son el resultado de comparaciones:
+
+let isGreater = 4 > 1;
+
+alert( isGreater ); // verdadero (el resultado de la comparación es "sí")
+
+Ahondaré más al respecto luego.
+
+VALORES FALSOS EN JAVASCRIPT
+
+Un valor falso es algo que se evalúa como false, por ejemplo, cuando se comprueba una variable. Solo hay ser valores falsos en JavaScript:
+
+undefined, null, NaN, 0 y "" (cadena vacía) y false por supuesto.
+
+OPERADORES DE COMPARACIÓN
+
+Conocemos muchos operadores de comparación de las matemáticas:
+
+- Mayor/menor que: a > b, a < b.
+
+- Mayor/menor o igual que: a >= b, a <= b.
+
+- Igual: a == b (ten en cuenta que el doble signo == significa comparación, mientras que un solo símbolo a = b significaría una asignación).
+Distinto. En matemáticas la notación es ≠, pero en JavaScript se escribe como una asignación con un signo de exclamación delante: a != b.
+
+BOOLEANO ES EL RESULTADO
+
+Como todos los demás operadores, una comparación retorna un valor. En este caso, el valor es un booleano.
+
+true – significa “sí”, “correcto” o “verdad”.
+false – significa “no”, “equivocado” o " no verdad".
+
+Entonces:
+
+console.log( 2 > 1 ) ---> true
+console.log( 2 == 1 ) ---> false
+console.log( 2 != 1 ) ---> true
+
+El resultado de una comparación puede asignarse a una variable, igual que cualquier valor:
+
+let result = 5 > 4; // asignar el resultado de la comparación
+alert( result ); // true
+
+UNA COMPARACIÓN GRACIOSA 
+
+Es posible que al mismo tiempo:
+
+Dos valores sean iguales.
+Uno de ellos sea true como booleano y el otro sea false como booleano.
+Por ejemplo:
+
+let a = 0;
+alert( Boolean(a) ); // false
+
+let b = "0";
+alert( Boolean(b) ); // true
+
+alert( a == b ); // true!
+Desde el punto de vista de JavaScript, este resultado es bastante normal. Una comparación de igualdad convierte valores utilizando la conversión numérica (de ahí que "0" se convierta en 0), mientras que la conversión explícita Boolean utiliza otro conjunto de reglas.
+
+IGUALDAD ESTRICTA
+
+Una comparación regular de igualdad == tiene un problema. No puede diferenciar 0 de `falso’:
+
+alert( 0 == false ); // true
+Lo mismo sucede con una cadena vacía:
+
+alert( '' == false ); // true
+
+Esto sucede porque los operandos de diferentes tipos son convertidos a números por el operador de igualdad ==. Una cadena vacía, al igual que false, se convierte en un cero.
+
+¿Qué hacer si queremos diferenciar 0 de false?
+
+Un operador de igualdad estricto === comprueba la igualdad sin conversión de tipo.
+
+En otras palabras, si a y b son de diferentes tipos, entonces a === b retorna inmediatamente false sin intentar convertirlos.
+
+Intentémoslo:
+
+alert( 0 === false ); // falso, porque los tipos son diferentes
+Existe también un operador de “diferencia estricta” !== análogo a !=.
+
+El operador de igualdad estricta es un poco más largo de escribir, pero hace obvio lo que está pasando y deja menos espacio a errores.
+
+COMPARACIÓN CON NULOS E INDEFINIDOS 
+
+Veamos más casos extremos.
+
+Hay un comportamiento no intuitivo cuando se compara null o undefined con otros valores.
+
+Para un control de igualdad estricto ===
+Estos valores son diferentes, porque cada uno de ellos es de un tipo diferente.
+
+alert( null === undefined ); // false
+Para una comparación no estricta ==
+Hay una regla especial. Estos dos son una " pareja dulce ": son iguales entre sí (en el sentido de ==), pero no a ningún otro valor.
+
+alert( null == undefined ); // true
+
+Para matemáticas y otras comparaciones < > <= >=
+null/undefined se convierten en números: null se convierte en 0, mientras que undefined se convierte en NaN.
+
+---------------------------------------------
+
+OPERADORES LÓGICOS
+
+Hay cuatro operadores lógicos en JavaScript: || (O), && (Y), ! (NO), ?? (Fusión de nulos).
+
+Aunque sean llamados lógicos, pueden ser aplicados a valores de cualquier tipo, no solo booleanos. EL RESULTADO PUEDE SER DE CUALQUIER TIPO
+
+|| (OR)
+El operador OR se representa con dos símbolos de linea vertical:
+
+result = a || b;
+En la programación clásica, el OR lógico esta pensado para manipular solo valores booleanos. Si cualquiera de sus argumentos es true, retorna true, de lo contrario retorna false.
+
+En JavaScript, el operador es un poco más complicado y poderoso. Pero primero, veamos qué pasa con los valores booleanos.
+
+Hay cuatro combinaciones lógicas posibles:
+
+alert(true || true); // true (verdadero)
+alert(false || true); // true
+alert(true || false); // true
+alert(false || false); // false (falso)
+
+Como podemos ver, el resultado es siempre true excepto cuando ambos operandos son false.
+
+Si un operando no es un booleano, se lo convierte a booleano para la evaluación.
+
+Por ejemplo, el número 1 es tratado como true, el número 0 como false:
+
+if (1 || 0) { // Funciona como if( true || false )
+  alert("valor verdadero!");
+}
+
+La mayoría de las veces, OR || es usado en una declaración if para probar si alguna de las condiciones dadas es true.
+
+Por ejemplo:
+
+let hour = 9;
+
+if (hour < 10 || hour > 18) {
+  alert( 'La oficina esta cerrada.' );
+}
+Podemos pasar mas condiciones:
+
+let hour = 12;
+let isWeekend = true;
+
+if (hour < 10 || hour > 18 || isWeekend) {
+  alert("La oficina esta cerrada."); // Es fin de semana
+}
+
+&& (AND)
+El operador AND es representado con dos ampersands &&:
+
+result = a && b;
+En la programación clásica, AND retorna true si ambos operandos son valores verdaderos y false en cualquier otro caso.
+
+alert(true && true); // true
+alert(false && true); // false
+alert(true && false); // false
+alert(false && false); // false
+Un ejemplo con if:
+
+let hour = 12;
+let minute = 30;
+
+if (hour == 12 && minute == 30) {
+  alert("La hora es 12:30");
+}
+Al igual que con OR, cualquier valor es permitido como operando de AND:
+
+if (1 && 0) { // evaluado como true && false
+  alert( "no funcionará porque el resultado es un valor falso" );
+}
+
+! (NOT)
+El operador booleano NOT se representa con un signo de exclamación !.
+
+La sintaxis es bastante simple:
+
+result = !value;
+El operador acepta un solo argumento y realiza lo siguiente:
+
+Convierte el operando al tipo booleano: true/false.
+Retorna el valor contrario.
+Por ejemplo:
+
+alert(!true); // false
+alert(!0); // true
+Un doble NOT !! es a veces usado para convertir un valor al tipo booleano:
+
+alert(!!"cadena de texto no vacía"); // true
+alert(!!null); // false
+Eso es, el primer NOT convierte el valor a booleano y retorna el inverso, y el segundo NOT lo invierte de nuevo. Al final, tenemos una simple conversión a booleano.
+
+Hay una manera un poco mas prolija de realizar lo mismo – una función integrada Boolean:
+
+alert(Boolean("cadena de texto no vacía")); // true
+alert(Boolean(null)); // false
+La precedencia de NOT ! es la mayor de todos los operadores lógicos, así que siempre se ejecuta primero, antes que && o ||.
+
+---------------------------------------
+
+Ejecución condicional: if, '?'
+A veces necesitamos que, bajo condiciones diferentes, se ejecuten acciones diferentes.
+
+Para esto podemos usar la sentencia if y el “operador condicional” ?.
+
+La sentencia “if”
+La sentencia if(...) evalúa la condición en los paréntesis, y si el resultado es verdadero (true), ejecuta un bloque de código.
+
+Por ejemplo:
+
+let year = prompt('¿En que año fué publicada la especificación ECMAScript-2015?', '');
+
+if (year == 2015) alert( '¡Estás en lo cierto!' );
+Aquí la condición es una simple igualdad (year == 2015), pero podría ser mucho más compleja.
+
+Si queremos ejecutar más de una sentencia, debemos encerrar nuestro bloque de código entre llaves:
+
+if (year == 2015) {
+  alert( "¡Es Correcto!" );
+  alert( "¡Eres muy inteligente!" );
+}
+
+Recomendamos encerrar nuestro bloque de código entre llaves {} siempre que se utilice la sentencia if, incluso si solo se va a ejecutar una sola sentencia. Al hacerlo mejoramos la legibilidad.
+
+Conversión Booleana
+La sentencia if (…) evalúa la expresión dentro de sus paréntesis y convierte el resultado en booleano.
+
+Recordemos las reglas de conversión del capítulo Conversiones de Tipos:
+
+El número 0, un string vacío "", null, undefined, y NaN, se convierten en false. Por esto son llamados valores “falsos”.
+El resto de los valores se convierten en true, entonces los llamaremos valores “verdaderos”.
+Entonces, el código bajo esta condición nunca se ejecutaría:
+
+if (0) { // 0 es falso
+  ...
+}
+…y dentro de esta condición siempre se ejecutará:
+
+if (1) { // 1 es verdadero
+  ...
+}
+También podemos pasar un valor booleano pre-evaluado al if, así:
+
+let cond = (year == 2015); // la igualdad evalúa y devuelve un true o false
+
+if (cond) {
+  ...
+}
+La cláusula “else”
+La sentencia if puede contener un bloque else (“si no”, “en caso contrario”) opcional. Este bloque se ejecutará cuando la condición sea falsa.
+
+Por ejemplo:
+
+let year = prompt('¿En qué año fue publicada la especificación ECMAScript-2015?', '');
+
+if (year == 2015) {
+  alert( '¡Lo adivinaste, correcto!' );
+} else {
+  alert( '¿Cómo puedes estar tan equivocado?' ); // cualquier valor excepto 2015
+}
+Muchas condiciones: “else if”
+A veces queremos probar más de una condición. La clausula else if nos permite hacer esto.
+
+Por ejemplo:
+
+let year = prompt('¿En qué año fue publicada la especificación ECMAScript-2015?', '');
+
+if (year < 2015) {
+  alert( 'Muy poco...' );
+} else if (year > 2015) {
+  alert( 'Muy Tarde' );
+} else {
+  alert( '¡Exactamente!' );
+}
+En el código de arriba, JavaScript primero revisa si year < 2015. Si esto es falso, continúa a la siguiente condición year > 2015. Si esta también es falsa, mostrará la última alert.
+
+Podría haber más bloques else if. Y el último else es opcional.
+
+_____________________________________________________________________
