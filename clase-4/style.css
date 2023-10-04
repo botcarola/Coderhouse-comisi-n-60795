@@ -1,0 +1,13 @@
+body {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.producto {
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+    margin: 10px;
+    text-align: center;
+}
