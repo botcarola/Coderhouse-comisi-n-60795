@@ -1,19 +1,28 @@
-// **Punto 1: Creación de un array y objetos de clientes**
+// RECUERDEN QUE ALGUNOS MÉTODOS, COMO MAP O FILTER, PUEDEN DEVOLVER COMO RESULTADO UN NUEVO ARRAY. EN EL CASO DE QUE LO PRECISEN, USEN LAS VARIABLES NECESARIAS COMO PARA CAPTURAR ESOS DATOS.
+// NO USEN FOR, USEN MÉTODOS DE ARRAY
 
-// El usuario debe generar un array llamado `segmento`. A través de una función constructora, se deben crear 10 potenciales clientes. Cada objeto debe tener las siguientes propiedades: `id`, `nombre`, `apellido`, `segmento` (que será un array que puede tener uno o más de los siguientes valores: "Préstamo personal", "Plazo fijo", "Seguro de incendio", "Seguro de auto", "Seguro de moto"). Otras propiedades deben ser `edad`, `numeroDeTelefono`, `contacto` (que es un booleano, donde `true` significa que el usuario ha sido contactado), `fechaDeContacto` (una fecha entre un rango del último mes para aquellos usuarios que hayan sido contactados. En el caso de que contacto sea false, el valor de fechaDeContacto debe ser null).
+// 1. **Creación de productos y array:**
+//    - Crea un array vacío llamado "productos".
+//    - Define una función constructora llamada "Producto" con propiedades: id, nombre, precio y categoría.
+//    - Instancia cinco productos distintos y añádelos al array "productos".
 
-// **Punto 2: Ordenar clientes por apellido**
+// 2. **Recorrido y visualización:**
+//    - Utiliza un método de array (puede ser `forEach` o `map`) para recorrer el array de productos.
+//    - Muestra en el documento (usando `document.write`) el nombre y el precio de cada producto.
 
-// Los clientes deben ser ordenados de manera alfabética (A-Z) por su apellido, sin modificar el array original.
+// 3. **Filtrar por categoría:**
+//    - Implementa una función que filtre los productos por categoría.
+//    - Genera un listado de productos que cumplan con una categoría específica.
 
-// **Punto 3: Filtrar clientes no contactados**
+// 4. **Actualización de precios:**
+//    - Utiliza un bucle `forEach` para aumentar el precio de cada producto en un 10%.
+//    - Actualiza los valores en el array original.
 
-// Se debe filtrar a los clientes que no hayan sido contactados. Es decir, se debe crear un nuevo array que contenga solo los clientes para los cuales la propiedad `contacto` sea `false`.
+// 5. **Inversión de orden y visualización:**
+//    - Invierte el orden de los productos en el array.
+//    - Muestra en la consola el orden de los nombres de los productos.
 
-// **Punto 4: Usando el método `reduce` para contar clientes no contactados**
-
-// Mediante el método `reduce`, se debe calcular cuántos clientes no han sido contactados en el array de clientes. Luego, mostrar el resultado en la consola.
-
-// **Punto 5: Recorrer el array de cada cliente y mostrar los segmentos**
-
-// Recorrer el array de cada cliente y mostrar en la consola cuáles son los segmentos en los que se puede ubicar al usuario. Esto se debe hacer para cada cliente en el array.
+// 6. **Búsqueda de producto por nombre:**
+//    - Solicita al usuario que introduzca un nombre de producto a través de un prompt.
+//    - Utiliza un método de array para encontrar el producto solicitado.
+//    - Muestra un alert con el mensaje "Su producto [nombre] vale [precio]" para el producto encontrado.
