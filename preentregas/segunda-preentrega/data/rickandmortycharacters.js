@@ -1,11 +1,4 @@
-const data = {
-    "info": {
-    "count": 826,
-    "pages": 42,
-    "next": "https://rickandmortyapi.com/api/character?page=2",
-    "prev": null
-    },
-    "results": [
+const data = [
     {
     "id": 1,
     "name": "Rick Sanchez",
@@ -668,5 +661,4 @@ const data = {
     "url": "https://rickandmortyapi.com/api/character/20",
     "created": "2017-11-04T22:34:53.659Z"
     }
-    ]
-    }
+    ]    
