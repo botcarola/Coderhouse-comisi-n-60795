@@ -1,0 +1,7 @@
+.container {
+    position: absolute;
+    top: 20%;
+    left: 20%;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
