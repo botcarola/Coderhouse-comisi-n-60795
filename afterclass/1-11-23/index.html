@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/6f65159a17.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <h1>
+        Registro de clientes
+    </h1>
+    <form id="form-user">
+        <p id="form-closed">
+            X
+        </p>
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre">
+        <label for="apellido">Apellido:</label>
+        <input type="text" id="apellido" name="apellido">
+        <label for="genero">Género:</label>
+        <input type="text" id="genero" name="genero">
+        <label for="email">Email:</label>
+        <input type="text" id="email" name="email">
+        <label for="compania">Compañía:</label>
+        <input type="text" id="compania" name="compania">
+        <label for="posicion">Posición:</label>
+        <input type="text" id="posicion" name="posicion">
+        <label>
+            <input type="submit" value="Enviar">
+        </label>
+    </form>
+    <main>
+        <section class="container">
+            <h2>
+                Usuarios
+            </h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>
+                            Nombre
+                        </th>
+                        <th>
+                            Apellido
+                        </th>
+                        <th>
+                            Género
+                        </th>
+                        <th>
+                            Email
+                        </th>
+                        <th>
+                            Compañía
+                        </th>
+                        <th>
+                            Posición
+                        </th>
+                        <th>
+                            Editar datos
+                        </th>
+                        <th>
+                            Eliminar registro
+                        </th>
+                    </tr>
+                </thead>
+                <tbody id="entidad-usuarios">
+
+                </tbody>
+            </table>
+        </section>
+    </main>
+    <script src="users.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>
